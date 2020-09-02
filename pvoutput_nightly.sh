@@ -2,8 +2,7 @@
 # crontab script to send the sunnyportal data from the last 3 days to pvoutput.org 
 # 
 # example schedule: at 2am
-# * 2 * * * /path-to-script/pvoutput_nightly.sh
-
+# 0 2 * * * /path-to-script/pvoutput_nightly.sh
 
 LOGFILE=/tmp/sunnyportal2pvoutput.nightly.log
 

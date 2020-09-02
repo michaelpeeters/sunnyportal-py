@@ -2,7 +2,7 @@
 # crontab script to send the sunnyportal data from today to pvoutput.org 
 # 
 # example schedule: at 2am
-# * 8-22 * * * /path-to-script/pvoutput_hourly.sh
+# 0 8-22 * * * /path-to-script/pvoutput_hourly.sh
 
 LOGFILE=/tmp/sunnyportal2pvoutput.hourly.log
 
